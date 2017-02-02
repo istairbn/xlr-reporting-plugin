@@ -1,1 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
 
+ THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+ FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+
+-->
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <type type="reporting.Timer" extends="xlrelease.PythonScript">
+        <property name="taskColor" hidden="true" default="#0000ff" />
+        <property name="scriptLocation" default="reporting/Timer.py" hidden="true" />
+        <property name="then" category="input" label="Start Time" kind="string" description="Leave blank to create a new Time string. Provide a Time string to calculate time elapsed"/>
+        <property name="nowString" category="output" kind="string" label="Time Now" description="Current Time String"/>
+        <property name="secondsString" category="output" kind="string" label="Seconds Elapsed" description="If Time String Provided, seconds elapsed since."/>
+        <property name="duration" category="output" kind="string" label="Duration" description="If Time String Provided, time elapsed since in readble format."/>
+    </type>
+</synthetic>
