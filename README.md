@@ -14,3 +14,6 @@ Place the latest released version under the `plugins` dir. If needed append the 
   * `Time Now`: Outputs the current time in Python Time format
   * `Seconds Elapsed`: Optional Output. Provides the elapsed seconds between `Start Time` and `Time Now`
   * `Duration`: Optional Output. Provides the `Seconds Elapsed` in a human readable format, suitable for reporting purposes.
+
++Status
+  * `Status`: Output - provides a human readable output of current status, used for email dissemination.
