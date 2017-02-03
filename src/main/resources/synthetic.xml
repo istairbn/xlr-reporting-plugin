@@ -15,7 +15,7 @@
         <property name="secondsString" category="output" kind="string" label="Seconds Elapsed" description="If Time String Provided, seconds elapsed since."/>
         <property name="duration" category="output" kind="string" label="Duration" description="If Time String Provided, time elapsed since in readable format."/>
     </type>
-    <type type="reporting.Timer" extends="xlrelease.PythonScript">
+    <type type="reporting.Status" extends="xlrelease.PythonScript">
         <property name="taskColor" hidden="true" default="#0000ff" />
         <property name="scriptLocation" default="reporting/ReleaseStatus.py" hidden="true" />
 
