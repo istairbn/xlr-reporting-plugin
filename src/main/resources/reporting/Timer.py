@@ -7,7 +7,7 @@ import time
 now = time.time()
 
 try:
-    then
+    print(then)
     print("Time given")
 except NameError:
     then = None
