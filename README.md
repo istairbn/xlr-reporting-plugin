@@ -1,5 +1,7 @@
 # xlr-reporting-plugin
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b22c5f5e5b84e7d97ced3887f1d9c22)](https://www.codacy.com/app/istairbn/xlr-reporting-plugin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=istairbn/xlr-reporting-plugin&amp;utm_campaign=Badge_Grade)
+
 See the **[XL Release Documentation](https://docs.xebialabs.com/xl-release/index.html)** for background information on XL Release and release concepts.
 
 # Overview# 
