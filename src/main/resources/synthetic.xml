@@ -21,4 +21,11 @@
 
         <property name="outputString" category="output" kind="string" label="Status" description="A human readable digest of the current release state, useful for email dissemination."/>
     </type>
+    <type type="reporting.Failures" extends="xlrelease.PythonScript">
+        <property name="taskColor" hidden="true" default="#0000ff" />
+        <property name="scriptLocation" default="reporting/Failures.py" hidden="true" />
+
+        <property name="totalFails" category="output" kind="integer" label="Total" description="Count of Total Failures in the release."/>
+        <property name="currentPhaseFails" category="output" kind="integer" label="Current Phase" description="Count of Failures in current phase."/>
+    </type>
 </synthetic>
